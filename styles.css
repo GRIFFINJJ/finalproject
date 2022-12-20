@@ -12,24 +12,36 @@ header img{
 section nav{
     display: flex;
     flex-wrap: wrap;
+    font-weight: 1000;
+    font-size: large;
+    font-style: bold;
     justify-content: center;
     align-content: space-around;
 }
 section a{
-    font-style: bold;
     padding: 2rem;
     border: 4px solid #0A5F00;
     background-color: #7EE6F2;
 }
 section a:hover{
     background-color: #1AACBC ;
-    font-style: bold;
     color: white;
 }
 .upcomingevents{
     border: 2px solid #0A5F00;
 }
 .cover{
+    width: 100%;
+}
+.option{
+    background-color: white;
+}
+.donation-form{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.articleimage{
     width: 100%;
 }
 body{
