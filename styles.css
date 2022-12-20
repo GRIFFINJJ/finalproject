@@ -27,14 +27,23 @@ section a:hover{
     background-color: #1AACBC;
     color: white;
 }
-.upcomingevents{
+.contentsection{
     border: 2px solid #0A5F00;
+    margin: 1rem;
 }
 .cover{
     width: 100%;
 }
+.project{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 .option{
     background-color: white;
+}
+.head{
+    background-color: #0A5F00;
+    color: white;
 }
 .donation-form{
     display: grid;
@@ -42,10 +51,14 @@ section a:hover{
 }
 .articleimage{
     width: 90%;
+    max-width: 1400px;
     justify-content: center;
 }
 .articleimagesmall{
-    width: 40%;
+    width: 100%;
+    display: inline;
+    margin: 2rem;
+    padding: 1rem;
 }
 body{
     background-color: #7dc2749f;
@@ -61,24 +74,32 @@ article{
     background-color: #ececec;
     padding: 1rem;
     margin: 1rem;
+    display: grid;
+    flex-wrap: wrap;
+}
+article img{
+    justify-self: center;
 }
 .text-image{
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem;
 }
 .shorttext{
     width: 40%;
 }
 @media (max-width:980px){
     .text-image{
-        display: inline;
-        flex-wrap: wrap;
+        display: grid;
     }
     .shorttext{
         width: 100%;
     }
     .articleimagesmall{
         width: 100%;
+        display: grid;
+        justify-self: center;
+        padding: 2rem
     }
     header{
         display: flex;
