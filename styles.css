@@ -14,7 +14,7 @@ section nav{
     flex-wrap: wrap;
     font-weight: 1000;
     font-size: large;
-    font-style: bold;
+    font-style: bold;/*Font style is for normal, italic, or oblique. Bold isn't a valid value*/
     justify-content: center;
     align-content: space-around;
 }
@@ -129,7 +129,7 @@ article img{
         flex-wrap: wrap;
         font-weight: 1000;
         font-size: medium;
-        font-style: bold;
+        font-style: bold;/*Font style is for normal, italic, or oblique. Bold isn't a valid value*/
         justify-content: center;
         align-content: space-around;
     }
